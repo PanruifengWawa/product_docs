@@ -3,10 +3,47 @@
 
 ### Sprint 1 Goal
 
-设计并实现系统的核心功能及数据模型，最后产出[MVP(Minimum viable product)](http://en.wikipedia.org/wiki/Minimum_viable_product)。
+设计并实现系统的核心功能及数据模型，最后产出[MVP(Minimum Viable Product)](http://en.wikipedia.org/wiki/Minimum_viable_product)。
 
 ### Sprint 1 User Story
 
-Sprint 1要满足的User Story为IU01到IU04。
+Sprint 1要满足的User Story为IU01到IU03。
 
-###### IU01
+###### IU01 
+
+作为产品管理团队，我们可以创建新的企业信息
+
+1. 企业信息需要包含logo、企业名字、企业概述
+2. 企业需要有对应的企业账号
+
+可扩展性考虑：
+
+1. 将来可能加上为企业分类的功能
+2. 将来可能由用户来添加企业，产品团队负责审核新企业请求
+
+
+###### IU02
+
+作为用户，我能发布我在某公司面试中被问到的问题
+
+1. 面试问题需要包含问题的内容（无需标题）、发布的用户、发布的时间
+2. 用户可以查看自己发过的问题
+
+可扩展性考虑：
+
+1. 将来会加上打tag的功能
+
+
+###### IU03
+
+作为用户，我可以回答某一道题目
+
+1. 回答需要包含回答的内容（无需标题）、发布的用户、发布的时间
+
+可扩展性考虑
+
+1. 将来会加上评论评分功能
+
+性能考虑
+
+1. 将来可能采用异步调用的方式（待评审）
